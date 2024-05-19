@@ -1,4 +1,7 @@
 package org.example.syshotelprojectbackend.repositories;
 
-public class RoomTypeRepository {
+import org.example.syshotelprojectbackend.model.RoomType;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RoomTypeRepository extends JpaRepository<RoomType, Integer> {
 }
